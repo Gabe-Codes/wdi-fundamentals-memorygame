@@ -64,7 +64,7 @@ main {
 }
 
 img {
-  margin: 40px 8px 0 8px
+  margin: 40px 8px;
 }
 
 footer {
@@ -88,15 +88,22 @@ footer {
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 
 .name {
   color: #F15B31;
   font-weight: 700;
+}
+
+#streak {
+  font-family: "Raleway", sans-serif;
+  color: red;
+  font-weight: 900;
+  font-size: 28px;
 }
